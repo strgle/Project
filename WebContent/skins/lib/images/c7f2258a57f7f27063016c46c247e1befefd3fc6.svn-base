@@ -1,0 +1,19 @@
+function insert_handler(){
+	var v_form  = Ext.getCmp('form_qmMrInfo');
+	v_form.insertForm({
+		url: '/adc/resourcesdata/qc/insertQmMrInfo',
+		vid: v_form['pkname'],
+		callback: function (response, options) {
+		  	SW.Msg.success(i18n['message.common.savesuccess']);
+			WIN.returnValue('success');
+		}
+	});
+}
+
+function activate_form_qmMrInfo(){
+	var v_form  = Ext.getCmp('form_qmMrInfo');
+	var vid = v_form['pkname'];
+	v_form.loadForm({
+		params : 'jsonString={qmMrInfo:{'+vid+':\'' + queryUrlStringByName(vid) + '\'}}'
+	});
+}

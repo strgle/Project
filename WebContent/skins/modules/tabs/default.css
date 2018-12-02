@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+
+.tab{
+	text-align: left;
+	border: 1px solid #D6D6D6;
+	height: 100%;
+	width: 100%;
+}
+
+.tab .tab-title{
+	position: relative;
+	left: 0;
+	height: 40px;
+	margin:0px;
+	padding:0px;
+	white-space: nowrap;
+	border-bottom: 1px solid #D6D6D6;
+	background-color: #F4F4F4;
+}
+
+.tab .tab-title li{
+	text-align: center;
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	font-size: 14px;
+	position: relative;
+	line-height: 40px;
+	min-width: 85px;
+	padding: 0 10px
+}
+
+.tab .tab-title .tab-this {
+	color: #009688;
+	font-weight: bold;
+	border-bottom:1px solid #009688;
+	background-color: #fff;
+}
+
+
+.tab .tab-content{
+	padding:0px;
+}
+
+.tab .tab-content .tab-item{
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+
+.tab .tab-content .tab-show{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}

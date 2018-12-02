@@ -1,0 +1,195 @@
+/*
+* 1、背景色 BACKGROUNDS 
+*/
+
+.gray-bg {
+    background-color: #f0f3f4;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.navy-bg {
+    background-color: #23b7e5;
+    color: #ffffff;
+}
+
+.blue-bg {
+    background-color: #1c84c6;
+    color: #ffffff;
+}
+
+.lazur-bg {
+    background-color: #23c6c8;
+    color: #ffffff;
+}
+
+.yellow-bg {
+    background-color: #f8ac59;
+    color: #ffffff;
+}
+
+.red-bg {
+    background-color: #ed5565;
+    color: #ffffff;
+}
+
+.black-bg {
+    background-color: #262626;
+}
+
+
+/*
+* 2、时间轴--timeline
+*/
+.timeline-container {
+	position: relative;
+    width: 90%;
+    max-width: 1170px;
+    padding: 0;
+    margin: 2em auto;
+}
+
+.timeline-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.timeline-container::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #f1f1f1;
+}
+
+.timeline-content .btn {
+    float: right;
+}
+
+.timeline-block {
+    position: relative;
+    margin: 2em 0;
+}
+
+.timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.timeline-block:first-child {
+    margin-top: 0;
+}
+
+.timeline-block:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
+.timeline-icon i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -9px;
+}
+
+
+.timeline-content {
+    position: relative;
+    margin-left: 60px;
+    background: white;
+    border-radius: 0.25em;
+    padding:1em 1em 0.5em 1em;
+}
+
+.timeline-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.timeline-content h2 {
+    font-weight: 400;
+    font-size:18px;
+    margin-top: 4px;
+}
+
+.timeline-content p {
+    margin: 1em 0;
+}
+
+.timeline-content .timeline-date {
+    float: left;
+    font-weight:500;
+}
+
+.timeline-date small {
+    color: #23b7e5;
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid white;
+}
+
+/*
+* 3、panel 对应的标记菜单
+*/
+.panel{
+	
+	margin-bottom: 20px;
+  	background-color: #fff;
+  	border: 1px solid #ddd;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  position: relative!important;
+}
+
+.panel .panel-title{
+	font-size: 14px;
+}
+
+.panel .panel-tools{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.panel .panel-tools label{
+	margin-left:10px;
+}
+
+.panel-body {
+  padding: 15px;
+}
+

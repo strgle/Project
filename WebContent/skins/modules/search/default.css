@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+.search{
+	position:absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+/*查询条件*/
+.search .condition{
+	background-color: #fff;
+	border:1px solid #D6D6D6;
+	position:relative;
+	padding: 10px 10px;
+}
+
+.search .condition input{
+	padding:3px 5px;
+	font-size: 14px;
+}
+
+.search .condition select{
+	padding:4px 5px;
+	letter-spacing: 1px;
+}
+
+.search .condition .dateTime{
+	background-color: #FAFDFF;
+}
+.search .condition .Connector{
+	background-color: #009688;
+	color: #FFF;
+	padding:5px 10px;
+	margin: 0px 10px;
+}
+.search .condition .btn-primary{
+	background-color: #009688;
+}
+
+/*查询结果*/
+.search .result{
+	position:absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top:60px;
+	background-color: #FFF;
+}
